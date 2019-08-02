@@ -1,7 +1,7 @@
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine){
-  var index = 1;
+  let index = 1;
   katzDeliLine.push(index);
   const result = "Welcome, "+ ". You are number" + katzDeliLine.length;
   index += 1;
