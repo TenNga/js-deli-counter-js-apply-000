@@ -1,13 +1,13 @@
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine){
-  let index = 1;
-  katzDeliLine.push(index);
-  const result = "Welcome, "+ ". You are number" + katzDeliLine[index];
-  index += 1;
+  let lineNumb = 1;
+  katzDeliLine.push(lineNumb);
+  const result = "Welcome, "+ ". You are number" + lineNumb;
+  lineNumb += 1;
   
   return result;
-} //   ["1","newCustomer","newCustomer"]
+} //   ["2","3"]
 
 function nowServing (katzDeliLine) {
   
